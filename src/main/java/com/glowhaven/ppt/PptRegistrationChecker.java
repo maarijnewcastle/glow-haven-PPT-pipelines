@@ -8,7 +8,7 @@ public class PptRegistrationChecker {
 
     private static final double REGISTRATION_THRESHOLD_KG = 10000.0;
 
-    private double importedWeightKg;
+    private double importedWeightKg
     private LocalDate checkDate;
 
     public void setImportedWeightKg(double weightKg) {
