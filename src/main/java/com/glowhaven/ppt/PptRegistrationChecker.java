@@ -32,7 +32,8 @@ public class PptRegistrationChecker {
     }
 
     public boolean mustRegister() {
-        return exceedsThreshold() && isFormalCheck();
+        return // exceedsThreshold() &&
+            isFormalCheck();
     }
 
     public Optional<LocalDate> getRegistrationDeadline() {
